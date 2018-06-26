@@ -3,7 +3,6 @@ const app = express();
 const port = 3012;
 
 app.set('view engine', 'ejs');
-app.use(express.static('static'));
 
 app.get('/', function (req, res) {
     var name = "alexandre";
